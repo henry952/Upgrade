@@ -14,3 +14,9 @@
 16:14:43.176 [main] WARN  com.pages.common.HomePage - Navigate Upgrade Home test success!
 16:14:49.667 [main] WARN  com.pages.common.HomePage - Navigate Upgrade Home test success!
 16:14:49.778 [main] ERROR com.pages.common.HomePage - go to Module test fail!
+16:58:46.521 [main] WARN  com.pages.common.HomePage - Navigate Upgrade Home test success!
+16:58:46.586 [main] WARN  com.pages.common.HomePage - Validate Home Page label test success!
+16:58:46.706 [main] ERROR com.pages.common.HomePage - go to Module test fail!
+16:58:46.808 [main] ERROR com.pages.common.HomePage - go to Module test fail!
+16:58:47.917 [main] WARN  com.pages.common.HomePage - go to Module test success!
+16:58:48.124 [main] ERROR com.pages.common.HomePage - go to Module test fail!

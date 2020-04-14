@@ -1,27 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="1" total="3" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="11942" started-at="2020-04-14T20:12:29Z" finished-at="2020-04-14T20:12:41Z">
+  <suite name="Suite" duration-ms="6051" started-at="2020-04-14T20:58:44Z" finished-at="2020-04-14T20:58:50Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="11942" started-at="2020-04-14T20:12:29Z" finished-at="2020-04-14T20:12:41Z">
+    <test name="Test" duration-ms="6051" started-at="2020-04-14T20:58:44Z" finished-at="2020-04-14T20:58:50Z">
       <class name="com.test.module.HomePageTest">
-        <test-method status="PASS" signature="validateTitle()[pri:1, instance:com.test.module.HomePageTest@470a9030]" name="validateTitle" duration-ms="3178" started-at="2020-04-14T20:12:29Z" finished-at="2020-04-14T20:12:32Z">
+        <test-method status="PASS" signature="validateTitle()[pri:1, instance:com.test.module.HomePageTest@5f577419]" name="validateTitle" duration-ms="2331" started-at="2020-04-14T20:58:44Z" finished-at="2020-04-14T20:58:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateTitle -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.test.module.HomePageTest@470a9030]" name="closeBrowser" is-config="true" duration-ms="174" started-at="2020-04-14T20:12:41Z" finished-at="2020-04-14T20:12:41Z">
+        <test-method status="PASS" signature="validateLabel()[pri:2, instance:com.test.module.HomePageTest@5f577419]" name="validateLabel" duration-ms="58" started-at="2020-04-14T20:58:46Z" finished-at="2020-04-14T20:58:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLabel -->
+        <test-method status="PASS" signature="validateLogo()[pri:3, instance:com.test.module.HomePageTest@5f577419]" name="validateLogo" duration-ms="1" started-at="2020-04-14T20:58:46Z" finished-at="2020-04-14T20:58:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLogo -->
+        <test-method status="PASS" signature="validateMenuPersonalLoan()[pri:4, instance:com.test.module.HomePageTest@5f577419]" name="validateMenuPersonalLoan" duration-ms="117" started-at="2020-04-14T20:58:46Z" finished-at="2020-04-14T20:58:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateMenuPersonalLoan -->
+        <test-method status="PASS" signature="validateMenuUpgradeCard()[pri:5, instance:com.test.module.HomePageTest@5f577419]" name="validateMenuUpgradeCard" duration-ms="101" started-at="2020-04-14T20:58:46Z" finished-at="2020-04-14T20:58:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateMenuUpgradeCard -->
+        <test-method status="PASS" signature="validateMenuCreditHealth()[pri:6, instance:com.test.module.HomePageTest@5f577419]" name="validateMenuCreditHealth" duration-ms="1108" started-at="2020-04-14T20:58:46Z" finished-at="2020-04-14T20:58:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateMenuCreditHealth -->
+        <test-method status="PASS" signature="validateMenuHelpCenter()[pri:7, instance:com.test.module.HomePageTest@5f577419]" name="validateMenuHelpCenter" duration-ms="206" started-at="2020-04-14T20:58:47Z" finished-at="2020-04-14T20:58:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateMenuHelpCenter -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.test.module.HomePageTest@5f577419]" name="closeBrowser" is-config="true" duration-ms="2102" started-at="2020-04-14T20:58:48Z" finished-at="2020-04-14T20:58:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- com.test.module.HomePageTest -->
-      <class name="com.test.common.SigninSignoffTest">
-        <test-method status="PASS" signature="signin()[pri:1, instance:com.test.common.SigninSignoffTest@66d57c1b]" name="signin" duration-ms="8561" started-at="2020-04-14T20:12:32Z" finished-at="2020-04-14T20:12:41Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- signin -->
-      </class> <!-- com.test.common.SigninSignoffTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
