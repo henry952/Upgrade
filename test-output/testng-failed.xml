@@ -6,11 +6,12 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.test.end2end.PersonalLoanQuotationTest">
+      <class name="com.test.common.SigninSignoffTest">
         <methods>
-          <include name="validateLoanQuotation"/>
+          <include name="closeBrowser"/>
+          <include name="signoff"/>
         </methods>
-      </class> <!-- com.test.end2end.PersonalLoanQuotationTest -->
+      </class> <!-- com.test.common.SigninSignoffTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

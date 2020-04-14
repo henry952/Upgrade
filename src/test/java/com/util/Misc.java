@@ -1,5 +1,7 @@
 package com.util;
 
+import java.util.Arrays;
+
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
@@ -47,5 +49,9 @@ public class Misc {
 	    };
 	    WebDriverWait wait = new WebDriverWait(driver, 10); //maximum 10 seconds
 	    wait.until(pageLoadCondition);
+	}
+	
+	public static void printStringArray(String[] strArr) {
+		System.out.println(Arrays.toString(strArr));
 	}
 }

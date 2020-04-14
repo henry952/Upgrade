@@ -120,7 +120,7 @@ public class ExcelReader implements ExcelReadable{
 		int rand = 0;
 		if(rowSize>=2) // title raw + at least one data row
 			rand = (int)(Math.random() * rowSize + 1);
-		if(rand == 1) rand++; //ensure it doesn't point to title row 
+		if(rand <= 1) rand = 2; //ensure it doesn't point to title row 
 		Row row = sheet.getRow(rand);
 		String[] data = new String[columnSize];
 		DataFormatter df = new DataFormatter();

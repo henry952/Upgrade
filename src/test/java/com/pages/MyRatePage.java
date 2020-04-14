@@ -66,10 +66,10 @@ public class MyRatePage extends PageBase{
 	
 	public void signOut(Logger logger, String expectedTitle) {
 		logger.info("validating sign off");
-//		Misc.sleepMiniSec(1000);
+		Misc.sleepMiniSec(1000);
 //		menu.click();
-		Misc.clickOn(driver, menu, 2);
-//		Misc.sleepMiniSec(500);
+		Misc.clickOn(driver, menu, 4);
+		Misc.sleepMiniSec(500);
 //		signout.click();
 		Misc.clickOn(driver, signout, 2);
 		Misc.waitForPageLoad(driver);

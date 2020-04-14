@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.util.TestingListener"/>
+  </listeners>
   <test thread-count="5" verbose="0" name="Test(failed)">
     <classes>
-      <class name="com.test.common.SigninSignoffTest">
+      <class name="com.test.end2end.PersonalLoanQuotationTest">
         <methods>
           <include name="closeBrowser"/>
-          <include name="signoff"/>
+          <include name="validateLoanQuotation"/>
         </methods>
-      </class> <!-- com.test.common.SigninSignoffTest -->
+      </class> <!-- com.test.end2end.PersonalLoanQuotationTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

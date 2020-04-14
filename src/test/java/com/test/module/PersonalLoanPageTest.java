@@ -72,7 +72,9 @@ public class PersonalLoanPageTest extends TestBase implements PersonalLoanPageTe
 	@Override
 	public void validateAmountRestriction() {
 		logger.info("Validating Amount Restriction");
-		String[] amt = tDataBook.getARandomRow("Loan_Amount");
-		pLoanPage.validateAmountInput(amt, "Pay off Credit Cards");
+		ArrayList<String> arrList = tDataBook.getColumnValues("Loan_Amount", "Loan_Amount");
+		String[] amt = arrList.toArray(new String[arrList.size()]);
+//		Misc.printStringArray(amt);
+		pLoanPage.validateAmountInput(amt, "Pay off Credit Cards");		
 	}
 }

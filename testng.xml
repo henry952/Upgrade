@@ -4,11 +4,11 @@
 <listeners>
   	<listener class-name="com.util.TestingListener"/>
   </listeners>
-  <test thread-count="5" name="Test">
+  <test thread-count="1" name="Test">
     <classes>  
-      <class name="com.test.end2end.PersonalLoanQuotationTest"/>
-      
-      
+
+      <class name="com.test.module.HomePageTest"/>
+
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

@@ -44,6 +44,7 @@ public class DriverManager {
 	public static void closeDriver(WebDriver driver) {
 		if(driver != null)
 			driver.close();
-		driver = null;
+//		driver.quit();;
+//		driver = null;
 	}
 }

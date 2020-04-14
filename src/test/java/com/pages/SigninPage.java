@@ -25,9 +25,11 @@ public class SigninPage  extends PageBase{
 	public boolean signin(String userid, String pwd, String expectedTitle) {
 		logger.info("validating sign in");
 		boolean success = false;
-		Misc.sleepMiniSec(500);
-		username.sendKeys(userid);
-		password.sendKeys(pwd);
+		Misc.sleepMiniSec(1000);
+		Misc.sendKeys(driver, username, 2, userid);
+	//	username.sendKeys(userid);
+		Misc.sendKeys(driver, password, 2, pwd);
+//		password.sendKeys(pwd);
 		signIn.click();
 
 		Misc.sleepMiniSec(2000);
